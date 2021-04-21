@@ -1,0 +1,15 @@
+{
+    "files.associations": {
+        "traceanal.C": "cpp",
+        "doit.C": "cpp",
+        "array": "cpp",
+        "deque": "cpp",
+        "string": "cpp",
+        "unordered_map": "cpp",
+        "vector": "cpp",
+        "initializer_list": "cpp",
+        "string_view": "cpp",
+        "iostream": "cpp",
+        "startup.C": "cpp"
+    }
+}

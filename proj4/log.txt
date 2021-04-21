@@ -1,0 +1,5 @@
+peter@peter--X1:~/src/OS/proj4$ ./run test 4096
+227 printable characters out of 227 bytes, 100%
+peter@peter--X1:~/src/OS/proj4$ ./run test mmap
+227 printable characters out of 227 bytes, 100%
+

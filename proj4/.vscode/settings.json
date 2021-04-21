@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "mmapexample.C": "cpp",
+        "mailboxes.C": "cpp",
+        "doit.C": "cpp"
+    }
+}

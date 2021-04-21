@@ -1,0 +1,77 @@
+Script started on 2020-09-11 10:30:43-0400
+]0;peter@peter--X1: ~/src/OS[01;32mpeter@peter--X1[00m:[01;34m~/src/OS[00m$ ./a.out 
+
+===> cat foo.txt
+bffflalallala
+
+CPU TIME (USER): 0
+CPU TIME (SYSTEM): 2.251
+WALL_CLOCK ELAPSED: 9461
+PREEMPTED INVOLUNTARILY: 0
+PROCESS STOPPED VOLUNTARILY: 2
+MAJOR PAGE FAULTS: 77
+MINOR PAGE FAULTS: 0
+
+===> ls
+a.out	 doitBetter   example_run.txt  myexec.out  temp.txt
+chars.C  doit.C       foo.txt	       myfork.C    test
+doit	 doitWorse.C  myexec.C	       myfork.out  typescript
+
+CPU TIME (USER): 2.641
+CPU TIME (SYSTEM): 2.251
+WALL_CLOCK ELAPSED: 2872
+PREEMPTED INVOLUNTARILY: 0
+PROCESS STOPPED VOLUNTARILY: 3
+MAJOR PAGE FAULTS: 190
+MINOR PAGE FAULTS: 0
+
+===> cd /
+
+===> ls
+bin    dev   initrd.img      lib64	 mnt   root  snap      sys  var
+boot   etc   initrd.img.old  lost+found  opt   run   srv       tmp  vmlinuz
+cdrom  home  lib	     media	 proc  sbin  swapfile  usr  vmlinuz.old
+
+CPU TIME (USER): 2.641
+CPU TIME (SYSTEM): 5.237
+WALL_CLOCK ELAPSED: 3249
+PREEMPTED INVOLUNTARILY: 0
+PROCESS STOPPED VOLUNTARILY: 4
+MAJOR PAGE FAULTS: 301
+MINOR PAGE FAULTS: 0
+
+===> set prompt --->
+syntax error
+
+===> set prompt = --->
+
+--->sleep 5 &
+
+--->adding 30277
+
+
+--->ls
+adding 30278
+bin    dev   initrd.img      lib64	 mnt   root  snap      sys  var
+boot   etc   initrd.img.old  lost+found  opt   run   srv       tmp  vmlinuz
+cdrom  home  lib	     media	 proc  sbin  swapfile  usr  vmlinuz.old
+
+CPU TIME (USER): 2.641
+CPU TIME (SYSTEM): 7.927
+WALL_CLOCK ELAPSED: 2931
+PREEMPTED INVOLUNTARILY: 0
+PROCESS STOPPED VOLUNTARILY: 5
+MAJOR PAGE FAULTS: 415
+MINOR PAGE FAULTS: 0
+
+--->
+CPU TIME (USER): 2.46
+CPU TIME (SYSTEM): 0
+WALL_CLOCK ELAPSED: 5005724
+PREEMPTED INVOLUNTARILY: 0
+PROCESS STOPPED VOLUNTARILY: 4
+MAJOR PAGE FAULTS: 78
+MINOR PAGE FAULTS: 1
+
+--->exit
+]0;peter@peter--X1: ~/src/OS[01;32mpeter@peter--X1[00m:[01;34m~/src/OS[00m$ ^C

@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "myexec.C": "cpp",
+        "doit.C": "cpp",
+        "myfork.C": "cpp",
+        "doitBetter.C": "cpp",
+        "chars.C": "cpp",
+        "iostream": "cpp",
+        "doitWorse.C": "cpp",
+        "test.C": "cpp"
+    }
+}
